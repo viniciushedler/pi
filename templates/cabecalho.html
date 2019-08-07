@@ -9,42 +9,35 @@
     #logo{
         height:50px;
         width:50px;
-        left:10px;
-        top:10px;
-    }
-    .cabecalho > h1{
-        white-space:nowrap;
-        display: inline;
+        background-color:lightgreen;
+        display: inline-block;
     }
     #botao_login{
-        left:1240px;
         float: right;
     }
     .cabecalho{
-        margin-top: 50px;
+        margin-top: 30px;
         margin-right: 80px;
         margin-bottom: 50px;
         margin-left: 80px;
-        padding-top: 30px;
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-top: 0px;
+        padding-right: 20px;
+        padding-left: 20px;
         padding-bottom: 30px;
         position:relative;
         background-color: lightskyblue;
-        width: 1680px;
+        width: 1380px;
     }
-    img.cabecalho {
-        display: inline;
+    .cabecalho > h1{
+        white-space:nowrap;
+        display: inline-block;
+        margin: 0px;
+        background-color: red;
     }
-    .nav_bar{
-       left: 10px;
-       top: 50px;
-    }
-    a.nav_bar{
-        display: block;
-        padding-top:30px;
+    .nav_bar >a{
+        padding-top:10px;
         padding-right:10px;
-        padding-bottom:30px;
+        padding-bottom:10px;
         padding-left:10px;
         background-color:royalblue;
     }
@@ -55,11 +48,12 @@
         <img id='logo' src="../static/logo.svg">
         <h1>LEARN LIBRAS</h1>
         <button id='botao_login'>Login</button>
+        <!-- <div class="nav_bar">
+            <a href="index">Inicio</a>
+            <a href="index">Inicio</a>
+        </div> -->
     </div>
-    <div class="nav_bar">
-        <a href="index">Inicio</a>
-        <a href="index">Inicio</a>
-    </div>
+    
 </div>
 </body>
 </html>
